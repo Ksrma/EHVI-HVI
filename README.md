@@ -5,6 +5,9 @@ EHVI is an important concept in multi-objective Bayesian optimization. This is a
 
 Our implementation is also suitable for computing the gradient of EHVI, by applying the method in [3].
 
+# Technical Appendix
+The appendix provides proofs and experimental results of our work [1].
+
 # Dependency
 BoTorch: https://github.com/pytorch/botorch
 
