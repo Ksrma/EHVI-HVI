@@ -3,7 +3,7 @@ Expected hypervolume improvement (EHVI) as a hypervolume improvement
 
 EHVI is an important concept in multi-objective Bayesian optimization. This is a Python implementation of our work in [1]. This algorithm has a complexity of $\tilde{O}(n^{\frac{d}{3}})$ ($n$ is the number of points and $d$ is the number of objectives) for **exactly** computing EHVI for all $d\ge4$, which improves previously fastest implementation in [2] by $\tilde{O}(n^{\frac{d}{6}})$. The experimental results show significant advantages over [2] for $d\ge5$. 
 
-Our implementation is also suitable for exactly computing $q$EHVI (multi-point version of EHVI) within the same time complexity and the gradient of EHVI by using the method in [3].
+Our implementation is also suitable for exactly computing $q\mathrm{EHVI}$ (multi-point version of EHVI) within the same time complexity and the gradient of EHVI by using the method in [3].
 
 # Technical Appendix
 The appendix provides proofs and experimental results of our work [1].
